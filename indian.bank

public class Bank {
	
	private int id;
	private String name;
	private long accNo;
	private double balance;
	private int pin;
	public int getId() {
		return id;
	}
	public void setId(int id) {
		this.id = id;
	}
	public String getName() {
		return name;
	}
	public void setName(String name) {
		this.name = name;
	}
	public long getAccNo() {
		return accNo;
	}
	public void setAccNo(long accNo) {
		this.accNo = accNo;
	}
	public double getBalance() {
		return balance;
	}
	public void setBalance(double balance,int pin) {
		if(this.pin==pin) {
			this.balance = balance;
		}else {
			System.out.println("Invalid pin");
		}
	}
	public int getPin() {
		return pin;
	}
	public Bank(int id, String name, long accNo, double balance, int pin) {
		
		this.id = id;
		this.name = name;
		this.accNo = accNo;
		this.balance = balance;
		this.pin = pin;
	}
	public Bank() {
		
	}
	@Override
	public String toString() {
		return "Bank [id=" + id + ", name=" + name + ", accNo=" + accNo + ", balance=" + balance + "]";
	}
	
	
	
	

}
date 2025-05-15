@@ -1,4 +1,6 @@
+day 19
 package indian.bank;
+
 
 public class Bank {
 	
