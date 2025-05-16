@@ -1,0 +1,53 @@
+package day17;
+
+
+
+class person {
+	int age;
+	String gender;
+
+	person(int age, String gender) {
+		this.age = age;
+		this.gender = gender;
+
+	}
+
+}
+
+class Employee extends person {
+	long phoneno;
+	Double salary;
+
+	public Employee(int age, String gender, long phoneno, Double salary) {
+		super(age, gender);
+		this.phoneno = phoneno;
+		this.salary = salary;
+	}
+
+}
+
+public class Staticandsuperclass {
+
+	static int num = 10;
+
+	public static void main(String[] args) {
+		int num1 = 10;
+		int num2 = 40;
+		System.out.println(Staticandsuperclass.num);
+		System.out.println(num1+num2);
+
+	}
+
+	static {
+		System.out.println("java developer");
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
